@@ -36,6 +36,7 @@ public class MainApplication extends Application{
         app = this;
         Mesosfer.initialize(this, MESOSFER_APPLICATION_ID, MESOSFER_CLIENT_KEY);
         Mesosfer.setLogLevel(Mesosfer.LOG_LEVEL_VERBOSE);
+
     }
 
     public static Context getAppContext() {
